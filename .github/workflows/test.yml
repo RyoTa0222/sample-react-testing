@@ -30,9 +30,5 @@ jobs:
       - name: install packages
         run: yarn install
 
-      # Runs a set of commands using the runners shell
-      - name: Run a Static Test
-        run: yarn lint
-
       - name: Run a Unit / Integration Test
         run: yarn test
